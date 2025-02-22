@@ -12,7 +12,7 @@ namespace AdventureGame.Controllers
         /// <param name="text">The text passed as a query parameter.</param>
         /// <returns>The length of the longest sequence of consecutive identical characters.</returns>
         /// <example>
-        /// GET: curl "https://localhost:7033/api/SequenceAnalyzer/FindLongestSequence?text=aaabbccccd"
+        /// GET: curl "https://localhost:7033/api/J3Controller/FindLongestSequence?text=aaabbccccd"
         /// -> 4
         /// </example>
         [HttpGet("FindLongestSequence")]
