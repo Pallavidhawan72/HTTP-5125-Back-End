@@ -15,7 +15,7 @@ namespace AdventureGame.Controllers
         /// <example>
         /// POST: curl -X POST "https://localhost:7033/api/J2Problem/ComputeFinalEnergy" -H "Content-Type: application/x-www-form-urlencoded" -d "startingEnergy=50&zuniEnergies=30,20,60,10"
         /// -> 110
-        /// curl -X POST "https://localhost:7033/api/J2PRoblem/ComputeFinalEnergy" -H "Content-Type: application/x-www-form-urlencoded" -d "startingEnergy=100&zuniEnergies=90,110,50"
+        /// curl -X POST "https://localhost:7033/api/J2Problem/ComputeFinalEnergy" -H "Content-Type: application/x-www-form-urlencoded" -d "startingEnergy=100&zuniEnergies=90,110,50"
         /// -> 190
         /// </example>
         [HttpPost("ComputeFinalEnergy")]
