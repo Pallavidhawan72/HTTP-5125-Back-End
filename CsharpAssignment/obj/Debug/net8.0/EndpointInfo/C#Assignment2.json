@@ -1,0 +1,315 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "C#Assignment2",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/J1/Delivedroid": {
+      "post": {
+        "tags": [
+          "J1"
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "deliveries": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "collisions": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "deliveries": {
+                  "style": "form"
+                },
+                "collisions": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/J1Problem/CalculateScores": {
+      "post": {
+        "tags": [
+          "J1Problem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "player1Level1": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "player1Level2": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "player1Level3": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "player2Level1": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "player2Level2": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "player2Level3": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "player1Level1": {
+                  "style": "form"
+                },
+                "player1Level2": {
+                  "style": "form"
+                },
+                "player1Level3": {
+                  "style": "form"
+                },
+                "player2Level1": {
+                  "style": "form"
+                },
+                "player2Level2": {
+                  "style": "form"
+                },
+                "player2Level3": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/J2/ChiliPeppers": {
+      "get": {
+        "tags": [
+          "J2"
+        ],
+        "parameters": [
+          {
+            "name": "Ingredients",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/J2Problem/ComputeFinalEnergy": {
+      "post": {
+        "tags": [
+          "J2Problem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "startingEnergy": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "zuniEnergies": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "startingEnergy": {
+                  "style": "form"
+                },
+                "zuniEnergies": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/J3/FindLongestSequence": {
+      "get": {
+        "tags": [
+          "J3"
+        ],
+        "parameters": [
+          {
+            "name": "text",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

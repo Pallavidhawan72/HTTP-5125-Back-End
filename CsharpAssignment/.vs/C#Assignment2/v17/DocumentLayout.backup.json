@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Christine\\C#Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|d:\\christine\\c#assignment2\\controllers\\j1problemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|solutionrelative:controllers\\j1problemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|d:\\christine\\c#assignment2\\controllers\\j2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|solutionrelative:controllers\\j2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|d:\\christine\\c#assignment2\\controllers\\j3controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|solutionrelative:controllers\\j3controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|d:\\christine\\c#assignment2\\controllers\\j2problemcontroller - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|solutionrelative:controllers\\j2problemcontroller - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|d:\\christine\\c#assignment2\\controllers\\j1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|solutionrelative:controllers\\j1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|d:\\christine\\c#assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7A7087-2107-44F2-BD3A-C7DF33171B6D}|C#Assignment2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "J1Controller.cs",
+              "DocumentMoniker": "D:\\Christine\\C#Assignment2\\Controllers\\J1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\J1Controller.cs",
+              "ToolTip": "D:\\Christine\\C#Assignment2\\Controllers\\J1Controller.cs",
+              "RelativeToolTip": "Controllers\\J1Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:52:10.329Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "J2ProblemController - Copy.cs",
+              "DocumentMoniker": "D:\\Christine\\C#Assignment2\\Controllers\\J2ProblemController - Copy.cs",
+              "RelativeDocumentMoniker": "Controllers\\J2ProblemController - Copy.cs",
+              "ToolTip": "D:\\Christine\\C#Assignment2\\Controllers\\J2ProblemController - Copy.cs*",
+              "RelativeToolTip": "Controllers\\J2ProblemController - Copy.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:26:34.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "J3Controller.cs",
+              "DocumentMoniker": "D:\\Christine\\C#Assignment2\\Controllers\\J3Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\J3Controller.cs",
+              "ToolTip": "D:\\Christine\\C#Assignment2\\Controllers\\J3Controller.cs",
+              "RelativeToolTip": "Controllers\\J3Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:20:37.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "J2Controller.cs",
+              "DocumentMoniker": "D:\\Christine\\C#Assignment2\\Controllers\\J2Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\J2Controller.cs",
+              "ToolTip": "D:\\Christine\\C#Assignment2\\Controllers\\J2Controller.cs",
+              "RelativeToolTip": "Controllers\\J2Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:42:06.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "J1ProblemController.cs",
+              "DocumentMoniker": "D:\\Christine\\C#Assignment2\\Controllers\\J1ProblemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\J1ProblemController.cs",
+              "ToolTip": "D:\\Christine\\C#Assignment2\\Controllers\\J1ProblemController.cs",
+              "RelativeToolTip": "Controllers\\J1ProblemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:37:20.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Christine\\C#Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Christine\\C#Assignment2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:10:29.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
